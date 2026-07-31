@@ -1,7 +1,30 @@
 aid: one-month
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/one-month.png
 name: One Month
-description: One Month is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  One Month is an online coding education platform that teaches beginners
+  practical software and web development skills through short, project-based
+  video courses designed to be completed in about a month. Its catalog spans
+  programming languages and frameworks such as Ruby, Ruby on Rails, Python,
+  JavaScript, HTML & CSS, SQL, and WordPress, alongside professional skills
+  like project management, using a "watch, do, repeat" methodology of hands-on
+  lessons and follow-along projects. One Month markets itself to career
+  changers and non-programmers looking to accelerate into technical roles, and
+  publishes a supporting blog of programming tutorials and career guidance. It
+  is a consumer-facing learning product and does not currently publish a public
+  developer API, SDKs, or webhooks. This profile was added to the API
+  Evangelist network as a portfolio lead awaiting the enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/one-month/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +34,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Education
+- Coding Education
+- Online Learning
+- Developer Training
+- Bootcamp
+- EdTech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/one-month-domain-security.yml
+- type: Website
+  url: https://onemonth.com
+- type: Blog
+  url: https://onemonth.com/blog
+- type: SignUp
+  url: https://onemonth.com/users/sign_up
+- type: Login
+  url: https://onemonth.com/users/sign_in
+- type: TermsOfService
+  url: https://onemonth.com/terms
+- type: PrivacyPolicy
+  url: https://onemonth.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
